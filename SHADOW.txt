@@ -1,0 +1,6 @@
+shadow prebuilt repo: sonivox (target)
+  upstream: external/sonivox
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.sonivox.apex
+  dev-src: extracted extractive payload (libsonivox.so, libsonivoxwithoutjet.so, libsonivoxwithoutjet.a, headers) + root Android.bp
+  date: 2026-10-16

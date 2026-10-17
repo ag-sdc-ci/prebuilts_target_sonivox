@@ -1,0 +1,24 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libsonivox-x86_64-v2.so.so",
+		    "libdummy_binary_libsonivox.so.so",
+		    "libdummy_binary_libsonivoxwithoutjet-x86_64-v2.so.so",
+		    "libdummy_binary_libsonivoxwithoutjet.a-x86_64-v2.so",
+		    "libdummy_binary_libsonivoxwithoutjet.a.so",
+		    "libdummy_binary_libsonivoxwithoutjet.so.so",
+		    "libdummy_ext_sonivox-x86_64-v2.so",
+		    "libdummy_ext_sonivox.so",
+		    "libdummy_headers_ext_sonivox-x86_64-v2.so",
+		    "libdummy_headers_ext_sonivox.so",
+		    "libdummy_shared_sonivox-x86_64-v2.so",
+		    "libdummy_shared_sonivox.so"
+	],
+	"requireLibs": [	
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libdl.so",
+		    "liblog.so",
+		    "libm.so"
+	],
+	"visible": true
+}
