@@ -16,11 +16,16 @@ license {
     ],
 }
 
-cc_prebuilt_library_shared {
+cc_prebuilt_library {
     name: "libsonivox",
     host_supported: true,
     export_include_dirs: ["include"],
-    srcs: ["lib/libsonivox.so"],
+    static: {
+        srcs: ["lib/libsonivox.a"],
+    },
+    shared: {
+        srcs: ["lib/libsonivox.so"],
+    },
 }
 
 cc_prebuilt_library {
